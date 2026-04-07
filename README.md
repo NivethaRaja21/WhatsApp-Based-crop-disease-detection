@@ -44,20 +44,7 @@ Confidence score
 Medicine
 Remedy steps
 Preventive measures
-🏗️ Project Structure
-crop-disease-detection/
-│
-├── dataset/
-│   └── plantvillage dataset/color/
-│
-├── model/
-│   ├── crop_model.h5
-│   └── class_names.json
-│
-├── train_model.py
-├── whatsapp_bot.py
-├── README.md
-└── requirements.txt
+
 ⚙️ Setup Instructions
 1. Clone the Repository
 git clone https://github.com/your-username/crop-disease-detection.git
@@ -89,8 +76,12 @@ Get your credentials:
 Account SID
 Auth Token
 Update them in the code:
+
 TWILIO_ACCOUNT_SID = "YOUR_TWILIO_SID"
+
 TWILIO_AUTH_TOKEN  = "YOUR_TWILIO_AUTH_TOKEN"
+
+
 Set your webhook URL to:
 http://your-server-url/whatsapp
 📊 Sample Response
