@@ -1,4 +1,5 @@
 🌾 Kisaan Bot – Crop Disease Detection System
+
 📌 Overview
 
 Kisaan Bot is a simple and practical AI-based solution designed to help farmers quickly identify crop diseases using just a photo of a leaf.
@@ -13,37 +14,60 @@ Remedies and precautions
 The goal of this project is to make crop disease detection accessible, fast, and easy to use, especially for farmers who may not have direct access to agricultural experts.
 
 🚀 What This Project Does
+
 📸 Detects crop diseases from leaf images
+
 🤖 Uses a trained deep learning model (MobileNetV2)
+
 📱 Works through WhatsApp for easy accessibility
+
 🌍 Supports multiple languages
+
 💊 Provides actionable treatment suggestions
+
 🌱 Supported Crops
 
 Currently supports diseases related to:
 
 Tomato
+
 Potato
+
 Rice
+
 Corn (Maize)
+
 and more classes from the dataset
+
 🌐 Language Support
 
 To make the system usable for more people, it supports:
 
-English
-Tamil
-Hindi
+1) English
+  
+2) Tamil
+  
+3) Hindi
+   
 🧠 How It Works
 User sends a leaf image via WhatsApp
+
 The image is processed and resized
+
 The trained model predicts the disease
+
 The system sends back:
+
 Disease name
+
 Confidence score
+
 Medicine
+
 Remedy steps
+
 Preventive measures
+
 
 ⚙️ Setup Instructions
 1. Clone the Repository
